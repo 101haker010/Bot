@@ -53,7 +53,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     if text in ["🆘 Supporto"]:
-        await update.message.reply_text("Supporto: @tuonome")
+        await update.message.reply_text("Supporto: @fedele")
         return
 
     if text == "📥 Invia file":
